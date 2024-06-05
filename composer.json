@@ -1,0 +1,23 @@
+{
+    "name": "forte-tecnologia/whastapp-sdk",
+    "type": "library",
+    "description": "SDK para envio de mensagens via Whastapp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "renato",
+            "email": "renatovisouza@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ForteTecnologia\\Whastapp\\": "src/"
+        }
+    },
+    "config": {
+        "lock": false
+    }
+}
