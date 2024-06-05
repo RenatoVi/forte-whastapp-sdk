@@ -24,6 +24,9 @@ use ForteTecnologia\Whastapp\Http\Client;
 // Credenciais
 $email = 'xxxxxxx@xxxxxxx.com';
 $password = 'xxxxxxx';
+
+// exemplo:
+// https://xxxxxxx.fortetecnologiaapp.com.br
 $company  = 'xxxxxxx';
 
 // Inicializa o cliente e autentica
@@ -44,3 +47,4 @@ $response = $client->messages()->send($token, $message);
 ## Credenciais
 
 Para utilizar o SDK, você precisa de um e-mail e senha cadastrados na ForteTecnologia. Caso você não tenha, entre em contato conosco.
+
