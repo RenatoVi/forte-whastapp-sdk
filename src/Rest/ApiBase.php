@@ -10,6 +10,6 @@ class ApiBase extends Domain
     public function __construct(Client $client) {
         parent::__construct($client);
 
-        $this->baseUrl = 'http://kaika.pedidoflix.test/';
+        $this->baseUrl = 'https://admin.fortetecnologiaapp.com.br/';
     }
 }
